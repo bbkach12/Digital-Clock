@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- external css links -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="https://pngimg.com/uploads/clock/clock_PNG6616.png" type="image/x-icon">
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <title>Alarm Clock </title>
+</head>
+
+<body onload="changeTime(); setInterval('changeTime()',1000)">
+    <div class="container">
+        <div id="hour" class="time"></div>:
+        <div id="minutes" class="time"></div>:
+        <div id="seconds" class="time"></div>:
+        <div id="AmPm" class="time"></div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
